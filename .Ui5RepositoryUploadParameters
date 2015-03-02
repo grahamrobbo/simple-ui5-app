@@ -1,0 +1,5 @@
+SAPUI5ApplicationName=ZDP_TEST
+SAPUI5ApplicationPackage=YDP_UX
+SAPUI5ApplicationDescription=Simple SAPUI5 App
+AcceptUnixStyleEol=True
+DeltaMode=False
