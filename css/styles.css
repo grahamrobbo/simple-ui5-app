@@ -1,9 +1,9 @@
-.todoInput {
+.my.simple.appInput {
 	padding-left: 0.25rem;
 
 }
 
-.todoInput,
-.todoListInput {
+.my.simple.appInput,
+.my.simple.appListInput {
 	padding-right: 0.25rem;
 }

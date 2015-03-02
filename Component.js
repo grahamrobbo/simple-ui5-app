@@ -1,11 +1,11 @@
-sap.ui.core.UIComponent.extend('todo.Component', {
+sap.ui.core.UIComponent.extend('my.simple.app.Component', {
 	metadata: {
-		name: 'Sample todo app',
+		name: 'Sample my.simple.app app',
 		version: '1.0.0',
 		includes: ['css/styles.css'],
 		dependencies: {
 			libs: ['sap.m']
 		},
-		rootView: 'todo.view.App'
+		rootView: 'my.simple.app.view.App'
 	}
 });

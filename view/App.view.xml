@@ -1,9 +1,9 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="todo.view.App" resourceBundleName="todo.i18n.messageBundle" resourceBundleAlias="i18n" displayBlock="true">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="my.simple.app.view.App" resourceBundleName="my.simple.app.i18n.messageBundle" resourceBundleAlias="i18n" displayBlock="true">
 	<Shell>
 		<App>
 			<Page title="{i18n>TITLE}" backgroundDesign="Solid">
 				<content>
-					<Input class="todoInput" value="{/newTodo}" placeholder="{i18n>INPUT_PLACEHOLDER}" change="addTodo" />
+					<Input class="my.simple.appInput" value="{/newtodo}" placeholder="{i18n>INPUT_PLACEHOLDER}" change="addtodo" />
 					<List id="todo-list" items="{/todos}" select="toggleCompleted"
 						mode="MultiSelect"
 						growing="true"
